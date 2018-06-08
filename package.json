@@ -1,13 +1,8 @@
 {
-  "name": "gseok-homepage",
-  "description": "gseok homepage, this page made jekyll and using so-simple-theme",
-  "version": "2.0.0",
+  "name": "image test",
+  "description": "image test",
+  "version": "0.0.1",
   "author": "gyeongseok.seo <gseok.seo@gmail.com>",
-  "homepage": "http://gseok.github.io/",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/gseok/gseok.github.com.git"
-  },
   "engines": {
     "node": ">= 0.10.0"
   },
