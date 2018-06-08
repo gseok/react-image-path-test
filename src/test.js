@@ -13,17 +13,25 @@ class App extends React.Component {
 
         return (
             <div>
-                <div>Image Test...!!, Static image Source, src changed base64 at webpack (url-loader)</div>
-                <img src={staticImgSrc}/>
+                <div>
+                    Image Test...!!, Static image Source, src changed base64 at webpack (url-loader)
+                </div>
+                    <img src={staticImgSrc}/>
                 <br/>
                 <br/>
-                <div>Image Test...!!, src for build(deploy) real image file must exists in relate path </div>
+
+                <div>
+                    Image Test...!!, src for build(deploy) real image file must exists in relate path
+                </div>
                 <div>in this case, webpack build's copy logic</div>
-                <img src={hardURL} />
-                <br />
-                <br />
-                <div>Test using scss~!~!</div>
-                <div className='myImageTest'></div>
+                    <img src={hardURL} />
+                <br/>
+                <br/>
+
+                <div>
+                    Test using scss~!~!
+                </div>
+                    <div className='myImageTest'></div>
             </div>
         );
     }
